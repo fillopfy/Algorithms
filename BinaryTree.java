@@ -206,5 +206,4 @@ public class BinaryTree {
         return path.get(i - 1);
     }
 
-    
 }
