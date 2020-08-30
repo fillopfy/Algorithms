@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ViewOfBT {
+public class ViewsOfBT {
 
     // Left View of Binary tree
     private static void leftView(Tree root) {
@@ -71,14 +71,13 @@ public class ViewOfBT {
         }
     }
 
+    // Top View of Binary tree
 
-    //Top View of Binary tree
-
-    private static void topView(Tree root){
-        if(root==null){
+    private static void topView(Tree root) {
+        if (root == null) {
             return;
         }
-        
+
     }
 
 }
