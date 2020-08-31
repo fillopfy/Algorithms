@@ -23,7 +23,7 @@ public class CountNoOfSubsetWithGivenDiff {
         // count subsets with sum s2 in arr and that will be the count of subsets with
         // given diff
 
-        int sum = diff + total / 2;
+        int sum = (diff + total) / 2;
 
         int[][] dp = new int[n + 1][sum + 1];
 
